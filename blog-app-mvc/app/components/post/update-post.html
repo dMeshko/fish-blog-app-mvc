@@ -1,0 +1,9 @@
+﻿<h2>Edit post</h2>
+<hr />
+<form class="form">
+    <input type="text" class="form-control" placeholder="Title" ng-model="model.Title" /><br />
+    <input type="text" class="form-control" placeholder="Author" ng-model="model.Author" /><br />
+    <textarea rows="5" class="form-control" placeholder="Content" ng-model="model.Content"></textarea><br />
+    <button type="button" ng-click="update()" class="btn btn-success"><i class="glyphicon glyphicon-send"></i> Update</button>
+    <button type="button" ng-click="resetModel()" class="btn btn-default"><i class="glyphicon glyphicon-remove"></i> Reset</button>
+</form>
