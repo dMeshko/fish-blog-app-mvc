@@ -27,7 +27,7 @@
         }
 
         factory.deleteComment = function (commentId) {
-            return $http.post("/Blog/deleteComment?id=" + commentId);
+            return $http.post("/Blog/DeleteComment?id=" + commentId);
         }
 
         return factory;
